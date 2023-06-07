@@ -1,5 +1,6 @@
 /* font: roboto */
-  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300&display=swap');
+
 
 *{  margin:0;
     padding:0;
@@ -82,4 +83,54 @@ a{
     border-radius:5px;
     color: #E5E7EB;
     padding:0.5em 1.5em;
+}
+
+
+/* section one */
+h2{
+    text-align: center;
+    padding: 1.5em;
+}
+
+.information_boxes{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 50px;
+padding-bottom:7em;
+}
+
+.box_content{
+    width:140px;
+    height:140px;
+    border:3px solid #3882F6;
+    border-radius: 5px;
+    margin-bottom: 0.5em;
+}
+
+.box_description{
+    max-width: 140px;
+}
+
+/* section two */
+
+.section_two{
+    background: #E5E7EB;
+}
+
+.quote{
+    color: #1F2937;
+    font-size:2.25rem;
+    font-weight: 300;
+    font-style:italic;
+    padding: 4em 0;
+    margin: 0 auto;
+    max-width:60vw;
+}
+
+.signature{
+    font-style:normal;
+    font-weight: 900;
+    float: right;
+    margin-top:0.3em;
 }
