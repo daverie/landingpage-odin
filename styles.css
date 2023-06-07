@@ -1,0 +1,85 @@
+/* font: roboto */
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{  margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: roboto;
+}
+
+nav, header{
+    background: #1F2937;
+}
+
+/* nav */
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 5em 5em;
+}
+
+ul{
+    display:flex;
+    gap: 1em;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1.125rem;
+    color: #E5E7EB;
+}
+
+.nav_logo{
+    color: #F9FAF8;
+    font-size: 1.5rem;
+}
+
+/* hero header */
+
+.hero_text{
+    min-width:50%;
+}
+
+.hero_img{
+    display: flex;
+    background: #E5E7EB;
+    color:#fff;
+    justify-content: center;
+    align-items: center;
+    min-width:50%;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 0 5em 10em 4em;
+}
+
+.hero_title{
+    color: #F9FAF8;
+    font-size:3rem;
+    font-weight: 900;
+}
+
+.hero_description{
+    color: #E5E7EB;
+    font-size: 1.125rem;
+    margin-right: 2em;
+    margin-bottom: 0.5em;
+}
+
+.button_primary{
+    background: #3882F6;
+    border:none;
+    border-radius:5px;
+    color: #E5E7EB;
+    padding:0.5em 1.5em;
+}
