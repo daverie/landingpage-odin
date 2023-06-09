@@ -160,3 +160,13 @@ padding-bottom:7em;
 .section_signup .btn_primary{
     border: 1px solid #fff;
 }
+
+footer{
+    text-align: center;
+    background: #1F2937;
+    padding: 1.5em
+}
+
+/* footer .description-light{
+    font-size: 1rem;
+} */
