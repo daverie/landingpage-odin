@@ -42,7 +42,7 @@ a{
     font-size: 1.5rem;
 }
 
-/* hero header */
+/* header hero */
 
 .hero_text{
     min-width:50%;
@@ -70,23 +70,23 @@ a{
     font-weight: 900;
 }
 
-.hero_description{
+.description-light{
     color: #E5E7EB;
     font-size: 1.125rem;
     margin-right: 2em;
     margin-bottom: 0.5em;
 }
 
-.button_primary{
+.btn_primary{
     background: #3882F6;
     border:none;
     border-radius:5px;
     color: #E5E7EB;
-    padding:0.5em 1.5em;
+    padding:0.5em 2em;
 }
 
 
-/* section one */
+/* section info*/
 h2{
     text-align: center;
     padding: 1.5em;
@@ -108,13 +108,13 @@ padding-bottom:7em;
     margin-bottom: 0.5em;
 }
 
-.box_description{
+.description-dark{
     max-width: 140px;
 }
 
-/* section two */
+/* section quote */
 
-.section_two{
+.section_quote{
     background: #E5E7EB;
 }
 
@@ -133,4 +133,30 @@ padding-bottom:7em;
     font-weight: 900;
     float: right;
     margin-top:0.3em;
+}
+
+/* section signup */
+
+.container_signup{
+    background:#3882F6;
+    margin: 4em 8em; 
+    padding: 3em 6em; 
+    display: flex;
+    justify-content:space-between;
+    align-items: baseline;
+    align-items: center;
+}
+
+.title_signup, .description-light{
+     text-align: unset; 
+    padding: 0; 
+}
+
+.title_signup{
+    color:#fff;
+    font-size:1.3rem;
+}
+
+.section_signup .btn_primary{
+    border: 1px solid #fff;
 }
